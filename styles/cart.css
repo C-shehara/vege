@@ -1,0 +1,71 @@
+.h1{
+  text-align: center;
+}
+body{
+  background-color: #D3CEDF;
+}
+.checkout-table{
+background-color: white;
+margin-left: 140px;}
+.checkout-table th{
+  padding: 5px;
+  color: white;
+}
+.checkout-table td{
+  padding: 12px;
+}
+.product-th{
+  width: 650px;
+  background-color: #7b7883;
+}
+.quantity-th{
+  width: 70px;
+  background-color: #7b7883;
+}
+.subtotal-th{
+  width: 325px;
+  background-color: #7b7883;
+
+}
+.product-img img{
+  width: 100%;
+}
+.product-preview{
+  display: grid;
+  grid-template-columns: 50px 200px;
+  font-size: 14px;
+  
+}
+.product-details{
+  margin-left: 5px;
+  line-height: 25px;
+}
+.product-details button{
+  font-family: montserrat, arial;
+  display: block;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  padding-left: 0;
+  color:red;
+  cursor: pointer;
+}
+.quantity-td{
+  padding: 30px;
+}
+.quantity-td input{
+  width: 30px;
+  text-align: center;
+}
+.subtotal-td{
+  text-align: end;
+}
+hr{width: 330px;
+margin-right: 0;
+}
+.total{
+  padding-left: 70px;
+  text-align: end;
+}.total span{
+  margin-left: 230px;
+
+}

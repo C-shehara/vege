@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ATTIRELY | Contact Us</title>
+    <link rel="stylesheet" href="./styles/general.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: montserrat, arial;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="header">
+        <div id="left-section-nav"></div>
+        <div id="storeName">
+          <a href="./index.html" style="color: white; text-decoration: none"
+            ><h1>ATTIRELY</h1></a
+          >
+        </div>
+        <div id="nav">
+          <nav>
+            <a id="home" href="./index.html">HOME</a>
+            <a id="store" href="./store.html">STORE</a>
+            <a id="about" href="./about.html">ABOUT</a>
+            <a id="contact" href="/contact.html">CONTACT US</a>
+          </nav>
+        </div>
+        <div id="right-section-nav"></div>
+      </div>
+    </header>
+    <header>
+      <div class="search-header">
+        <div class="left-section-search"></div>
+        <div class="middle-section">
+          <button class="search">
+            <img
+              class="search-pic"
+              src="./images/search.png"
+              alt="Search picture"
+            />
+          </button>
+          <input type="text" class="search-bar" placeholder="SEARCH.." />
+          <button class="cart">
+            <a href="./cart.html"
+              ><img
+                class="cart-pic"
+                src="./images/bag.png"
+                alt="Go to Cart button"
+            /></a>
+          </button>
+        </div>
+        <div class="right-section-search"></div>
+      </div>
+    </header>
+    <section class="form">
+      <h1 class="h1">CONTACT US</h1>
+      <p class="statement">Have any questions or concerns?</p>
+      <form action="">
+        <div class="form-col1">
+          <p>
+            <input
+              type="text"
+              required="required"
+              placeholder="Name *"
+              maxlength="30"
+            />
+          </p>
+          <p><input type="email" placeholder="Email *" required /></p>
+          <p><input type="text" placeholder="Subject" /></p>
+        </div>
+        <div>
+          <p>
+            <textarea
+              cols="30"
+              rows="8"
+              placeholder="Message *"
+              required
+            ></textarea>
+          </p>
+        </div>
+        <button type="submit" class="submit">SUBMIT</button>
+        <button type="reset" class="reset">RESET</button>
+      </form>
+    </section>
+  </body>
+</html>

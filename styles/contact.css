@@ -1,0 +1,50 @@
+
+body{
+  background-color: #7b7883;
+}
+.h1{
+  text-align: center;
+  margin: 0;
+  padding: 30px;
+}
+.form{
+background-color: #D3CEDF;
+padding-bottom: 30px;}
+form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ 
+
+}
+.form form{
+  margin-left: 470px;
+  margin-right: 450px;
+
+}
+.statement{
+  text-align: center;
+}
+.form input, .form textarea{
+  width: 200px; 
+  padding-left: 8px;
+  font-family: montserrat, arial;
+}
+.form input{
+  height: 35px;
+  
+}
+.form textarea{
+  padding-top: 10px;
+  padding-bottom: 24px;
+}
+
+.submit, .reset{
+  width: 210px;
+  background-color: black;
+  border: solid;
+  border-color: black;
+  border-radius: 2px;
+  color: white;
+  padding: 5px;
+  font-family: montserrat, arial;
+}

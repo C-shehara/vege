@@ -1,0 +1,59 @@
+.h1{
+  text-align: center;
+  margin: 0;
+  padding: 30px;
+  border-left: solid;
+  border-right: solid;
+  border-width: 200px;
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-color: #D3CEDF;
+}
+body{
+  background-color: #F2D7D9;
+}
+p{
+  text-align: center;
+  margin-top: 20px;
+  
+}
+.text{
+  background-color: #F2D7D9;
+  border-left: solid;
+  border-right: solid;
+  border-width: 200px;
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  line-height: 30px;
+  border-color: #D3CEDF;
+  
+}
+
+
+.values{
+  background-color: white;
+  padding: 20px;
+  line-height: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.values h3{
+  text-align: center;
+}
+.values li{
+  list-style-type: none;
+}
+.value-name{
+  font-weight: bold;
+}
+.value-des{
+  padding-left: 10px;
+  font-size: 15px;
+}
+.img1, .img2, .img3{
+  width: 100%;
+}
